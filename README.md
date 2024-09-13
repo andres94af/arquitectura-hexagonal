@@ -1,4 +1,9 @@
-# Getting Started
+# Arquitectura Hexagonal
+
+### Desarrollo de aplicacion basica CRUD para estudiantes utilizando la aquitectura hexagonal con Java y Spring Boot.
+** Practicas**
+
+---
 
 ### Reference Documentation
 For further reference, please consider the following sections:
