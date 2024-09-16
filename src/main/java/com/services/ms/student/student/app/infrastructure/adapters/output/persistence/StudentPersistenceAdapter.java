@@ -5,13 +5,14 @@ import com.services.ms.student.student.app.domain.model.Student;
 import com.services.ms.student.student.app.infrastructure.adapters.output.persistence.mapper.StudentPersistenceMapper;
 import com.services.ms.student.student.app.infrastructure.adapters.output.persistence.repository.StudentRepository;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;
 
 @Component
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class StudentPersistenceAdapter implements StudentPersistencePort {
 
     private final StudentRepository repository;
